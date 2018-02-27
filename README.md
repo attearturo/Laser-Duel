@@ -9,6 +9,8 @@ Although they do not have enough diffusion now, some day they will become such a
 
 Laser Duel is not only a game with an innovative interface, it is also a proposal to integrate the physical and digital world more and more.
 
+Laser Duel is not only a game with an innovative interface, it is also a proposal to integrate the physical and digital world more and more.
+
 # How it works
 
 Each player is equipped with a pair of socks, in which different electronic components are installed. 
