@@ -1,4 +1,6 @@
 # Laser Duel
+Laser Duel is a multiplayer wearable game where players try to point a laser pointer at their opponent's socks while dodging their opponent's laser.
+
 Laser Duel is a multiplayer wearable game where players try to point a laser pointer at their opponent's socks while dodging their opponent's laser
 
 # Overview
