@@ -15,6 +15,7 @@ Each player is equipped with a pair of socks, in which different electronic comp
 
 These components are responsible for processing the information that enters and translate it into physical, visual and sound stimuli for the player.
 
+These components are responsible for processing the information that enters and translate it into physical, visual and sound stimuli for the player.
 
 # + Info
 Don't be shiy.
