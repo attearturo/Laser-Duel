@@ -1,24 +1,22 @@
 #include "notes.h"
 // Which pin the buzzer is attached to
-int buzzerPin = 7;
+int buzzerPin = 5;
 int delayTime = 500;
-
 
 const int C1 = 2093;
 const int C = 1046;
 
 //RGB Light
-int redLed = 9;
-int greenLed = 11;
+int redLed = 11;
+int greenLed = 9;
 int blueLed = 10;
 
-
 //Light Sensor
-int sensorPin = A6;
+int sensorPin = A2;
 int lightValue;
 
 // Pin del motor
-int motorPin = 3;
+int motorPin = 6;
 
 //Game Logics
 int lives = 3;
@@ -69,10 +67,6 @@ delay(575);
   //Set RGB Green
   analogColor(0, 255, 20);
 
-
-
-
-
 }
 //--------------------------------------------------------
 
@@ -104,33 +98,20 @@ int analogColor(int redValue, int greenValue, int blueValue) {
 //Check how many lives and change Color
 void checkLives() {
   if (lives == 3) {
-    analogColor(0, 255, 20);
+    analogColor(0, 250, 0);
   }
   if (lives == 2) {
-    analogColor(170, 170, 20);
+    analogColor(255, 140, 20);
   }
   if (lives == 1) {
-    analogColor(255, 0, 20);
+    analogColor(255, 255, 20);
   }
   if (lives <= 0) {
-    analogColor(0, 0, 0);
+    analogColor(255, 0, 20);
     alive = false;
 
     //----------------------------------
     // ASÍ SONARÁ CUANDO MUERA
-    /*
-    tone(buzzerPin, C);
-    delay(500);
-    tone(buzzerPin, C1);
-    delay(delayTime);
-    tone(buzzerPin, C);
-    delay(500);
-    tone(buzzerPin, C1);
-    delay(delayTime);
-    tone(buzzerPin, C);
-    delay(500);
-    noTone(buzzerPin);
-    */
       for (int thisNote = 1; thisNote < (gameover[0] * 2 + 1); thisNote = thisNote + 2) { // Run through the notes one at a time
       tone(buzzerPin, gameover[thisNote], (1000/gameover[thisNote + 1]));// Play the single note
       delay((1000/gameover[thisNote + 1]) * 1.30);                        // Delay for the specified time
