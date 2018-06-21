@@ -101,13 +101,13 @@ void checkLives() {
     analogColor(0, 250, 0);
   }
   if (lives == 2) {
-    analogColor(255, 140, 20);
+    analogColor(255, 0, 180);
   }
   if (lives == 1) {
-    analogColor(255, 255, 20);
+    analogColor(255, 140, 0);
   }
   if (lives <= 0) {
-    analogColor(255, 0, 20);
+    analogColor(255, 0, 0);
     alive = false;
 
     //----------------------------------
