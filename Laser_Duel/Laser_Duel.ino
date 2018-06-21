@@ -98,16 +98,16 @@ int analogColor(int redValue, int greenValue, int blueValue) {
 //Check how many lives and change Color
 void checkLives() {
   if (lives == 3) {
-    analogColor(0, 250, 0);
+    analogColor(0, 255, 0);
   }
   if (lives == 2) {
-    analogColor(255, 0, 180);
+    analogColor(255, 200, 0);
   }
   if (lives == 1) {
-    analogColor(255, 140, 0);
+    analogColor(255, 50, 0);
   }
   if (lives <= 0) {
-    analogColor(255, 0, 0);
+    analogColor(250, 0, 0);
     alive = false;
 
     //----------------------------------
