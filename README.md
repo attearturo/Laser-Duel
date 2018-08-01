@@ -19,4 +19,9 @@ These components are responsible for processing the information that enters and 
 https://www.behance.net/gallery/58944285/Laser-Duel
 
 
+## License
+
+© Profeticos 2017
+Cali, Colombia
+
 
