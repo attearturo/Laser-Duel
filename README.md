@@ -24,7 +24,3 @@ https://www.behance.net/gallery/58944285/Laser-Duel
 © Profeticos 2017
 Cali, Colombia
 
-## License
-
-© Profeticos 2017
-Cali, Colombia
