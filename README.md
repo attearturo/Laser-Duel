@@ -12,7 +12,6 @@ Laser Duel is not only a game with an innovative interface, it is also a proposa
 # How it works
 
 Each player is equipped with a pair of socks, in which different electronic components are installed. 
-HCI Project.
 
 These components are responsible for processing the information that enters and translate it into physical, visual and sound stimuli for the player.
 
